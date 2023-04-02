@@ -1,0 +1,148 @@
+body{
+    font-family: 'Delicious Handrawn', cursive;
+    text-align: center;
+    background: linear-gradient(#2a9d8f, grey);
+}
+
+.tittle{
+    margin: 0 0 0 0;
+    padding: 0px 0 0 0;
+    font-size: 80px;
+    border-bottom: 3px solid black;
+}
+
+.introduction{
+    background-image: url(images/Birkenhead.jpg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    margin: 0px auto 15px auto;    
+}
+
+
+.subtittle{
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+#description{
+    font-size: 25px;
+    padding: 0 20px;
+    color: black;
+    text-shadow: 0 0 100px white;
+}
+
+.mainPoints{    
+    border-top: 3px solid black;
+}
+
+.places{
+    margin: 0;
+}
+
+.place{
+    font-size: 25px;
+    margin: 0;
+}
+
+.place-heading{
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.place-description{
+    font-size: 25px;
+    text-align: left;
+}
+
+#pictures{
+    display: flex;
+    flex-direction: row;
+}
+
+.place-picture-hamilton{
+    height: 400px;
+    width: 500px;
+    background-image: url(images/HamiltonSquare.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.place-picture-hamilton:hover{
+    background-image: url(images/HamiltonSquare1.jpg);
+}
+
+.place-picture-hamilton1{
+    height: 400px;
+    width: 500px;
+    background-image: url(images/HamiltonSquare2.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.place-picture-hamilton1:hover{
+    background-image: url(images/HamiltonSquare3.jpg);
+}
+
+.place-picture-park{
+    height: 400px;
+    width: 500px;
+    background-image: url(images/BirkenheadPark1.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.place-picture-park:hover{
+    background-image: url(images/BirkenheadPark3.jpg);
+}
+
+.place-picture-park1{
+    height: 400px;
+    width: 500px;
+    background-image: url(images/BirkenheadPark2.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.place-picture-park1:hover{
+    background-image: url(images/BirkenheadPark.jpg);
+}
+
+.place-picture-pyramids{
+    height: 400px;
+    width: 500px;
+    background-image: url(images/PyramidCentre.jpg);
+    background-size: cover;
+    margin: 0 auto 15px auto;
+}
+
+.place-picture-pyramids:hover{
+    background-image: url(images/PyramidCentre1.jpg);
+    margin-bottom: 15px;
+}
+
+.place-picture-pyramids1{
+    height: 400px;
+    width: 500px;
+    background-image: url(images/PyramidCentre2.jpg);
+    background-size: cover;
+    margin: 0 auto 15px auto;
+}
+
+.place-picture-pyramids1:hover{
+    background-image: url(images/PyramidCentre3.jpg);
+    margin-bottom: 15px;
+}
+
+#footer{
+    display: flex;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.footer-inf{
+    border: 5px solid white;
+    color: red;
+    background: yellow;
+    margin-left: 10px;
+}
